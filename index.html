@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+    <title>Your Website</title>
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="nav-menu">
+
+    <div class="logo">
+        <img src="images/web_logo.jpeg" alt="Website Logo">
+    </div>
+   
+    
+<!-- Navigation Bar -->
+
+<nav>
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="company.html">Company</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="customers.html">Customers</a></li>
+    </ul>
+</nav>
+</header>
+<section class="banner">
+    <h1>GOOD HEALTH AND WELLBEING</h1>
+    <p>Welcome to Our Sustainable World.We are a passionate team dedicated to promoting sustainability and addressing the UN Sustainable Development Goals (SDGs). Our mission is to raise awareness, inspire action, and contribute to a better future for our planet and its inhabitants.</p>
+
+   
+    <h2>Our Commitment to SDGs</h2>
+    <p>At Good health and wellbeing , we are aligned with the UN Sustainable Development Goals. Our focus lies in ensuring good health and well being for all and all ages. Through our content and initiatives, we aim to make a positive impact and drive positive change in our community and beyond.</p></section>
+
+
+<!-- Content Section -->
+<section id="content">
+    
+
+    <img src="images\good health pix.png" alt="good health pix">
+    <p>Explore our website to learn more about sustainable living practices, environmental conservation, and the steps you can take to contribute to a more sustainable world.</p>
+    <h2>TARGETS AND INDICATORS</h2>
+    <P>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</P><br>
+    <dl>
+        <h4><dt>Indicators</dt></h4>
+        <li>Tuberculosis incidence per 100,000 population</li>
+        <li>Malaria incidence per 1,000 population</li>
+        <li>Hepatitis B incidence per 100,000 population</li>
+        <li>Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</li>
+        <li>Number of people requiring interventions against neglected tropical diseases</li>
+
+
+      </dl>
+    <p>Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</p>
+    <h4><dt>Indicators</dt></h4>
+    <li>Age-standardized prevalence of current tobacco use among persons aged 15 years and older</li><br>
+    <p>Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</p><br>
+    <dl>
+        <h4><dt>Indicators</dt></h4>
+        <li>Coverage of essential health services</li>
+        <li>Proportion of population with large household expenditures on health as a share of total household expenditure or income</li>
+    </dl>
+    <h2>Join Us on the Journey</h2>
+    <p>Together, we can make a difference. Join us in our mission to create a sustainable and equitable future. Whether you are an individual, a business, or an organization, there are various ways you can get involved and support our initiatives.</p><br>
+
+    <img src="images\Healthy choices.jpg" alt="healthy choices">
+    <p>Ready to take action? Navigate through the website using the menu above to discover more about our projects, resources, and how you can participate. Every small effort counts!</p>
+</section>
+
+
+<!-- Footer Section -->
+<footer>
+    <p>Website created by Group 1. Contact us: [Your Contact Information]</p>
+</footer>
+
+<!-- Include JavaScript for the active page indication in the navigation bar -->
+<script>
+    // Add active class to the clicked navigation link
+    const navLinks = document.querySelectorAll('nav a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.forEach(navLink => navLink.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+</script>
+
+</body>
+</html>
